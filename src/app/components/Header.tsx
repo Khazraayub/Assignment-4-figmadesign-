@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <nav className=" bg-[#F3F3F3] text-black fixed w-full top-0 z-50 ">
-      <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <h1 className="text-center text-black sm:text-5xl font-medium text-5xl pl-2">ks.</h1>
@@ -66,7 +66,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-700">
+        <div className="md:hidden bg-white text-black">
           <div className="space-y-2 px-4 py-4">
             <Link href="/"
                 className="block hover:text-gray-400 cursor-pointer logo duration-150 ease-linear">Work 
