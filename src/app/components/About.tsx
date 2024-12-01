@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import myImage from "../../../public/images/dp.jpg";
+
 import { GoArrowRight } from "react-icons/go";
 
 const About = () => {
@@ -10,7 +10,7 @@ const About = () => {
         {/* content */}
 
         <div className="flex  flex-col w-full  lg:w-[44%] gap-9 mb-11 lg:m-0">
-          <h1 className="text-6xl font-[500] w-[500px] leading-[58.32px] mb-11 ">
+          <h1 className="text-6xl font-[500] w-[500px] text-black leading-[58.32px] mb-11 ">
             Hi I’m Mehmet Akif Karasu, 3D artist & sculptor.
           </h1>
           <p className="text-2xl text-[#606060] leading-[37.44px] font-[400]  tracking-[-3%]">
@@ -39,22 +39,22 @@ const About = () => {
       <div className="w-[670px] mx-20 my-32 h-[216px] flex flex-col">
         {/* project */}
         <div className="flex gap-10  ">
-          <h1 className="text-xl font-semibold underline w-[30%]">
+          <h1 className="text-xl font-semibold text-black underline w-[30%]">
             Main projects
           </h1>
-          <p className="text-lg w-[70%] ">
+          <p className="text-lg text-black w-[70%] ">
             Governor Sindh Website , Personal Portfolio, Food Website, ID Card Project etc.
           </p>
         </div>
-        <p className="ml-[230px] my-7 text-[18px]">Adobe CC, Figma, Ableton</p>
+        <p className="ml-[230px] my-7 text-black text-[18px]">Adobe CC, Figma, Ableton</p>
 
         {/* skill */}
         <div className="flex gap-10 mb-5">
-          <h1 className="text-xl font-semibold underline w-[30%]">
+          <h1 className="text-xl font-semibold text-black underline w-[30%]">
             {" "}
             Main skills
           </h1>
-          <p className="text-[18px] w-[70%]">
+          <p className="text-[18px] text-black w-[70%]">
             Html, CSS, JavaScript, Next.js, TypeScript, TailwindCSS.
           </p>
         </div>
@@ -65,7 +65,7 @@ const About = () => {
       {/*End  */}
       <div className="flex justify-between font-[400] mx-20 my-8 flex-col lg:flex-row lg:mx-24 lg:mb-28 ">
         <div className="flex gap-20 ">
-          <h1 className="flex mb-16 lg:m-0  text-3xl w-[347px] ">
+          <h1 className="flex mb-16 lg:m-0  text-black text-3xl w-[347px] ">
             I am thrilled to answer to <br /> your next project{" "}
             <span className="-ml-20 mt-10 font-semibold">
               <GoArrowRight />
@@ -74,8 +74,8 @@ const About = () => {
         </div>
 
         <div>
-          <h2 className="text-2xl mb-6">khazrashaikh@gmail.com</h2>
-          <p className="text-[18px]">View Resume</p>
+          <h2 className="text-2xl text-black mb-6">khazrashaikh@gmail.com</h2>
+          <p className="text-[18px] text-black">View Resume</p>
         </div>
       </div>
     </div>
