@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="bg-[#F3F3F3] body-font w-full lg:w-full">
       <div className="flex flex-col lg:flex-row items-center lg:px-20 h-[70vh]">
         <div className="lg:w-[45%] lg:my-0 mt-16">
-          <h1 className="font-[500]  text-[60px] leading-[58.32px] ">
+          <h1 className="font-[500] text-black text-[60px] leading-[58.32px] ">
             Hello, I&apos;m <br /> Khazra Shaikh
           </h1>
         </div>
@@ -19,7 +19,7 @@ export default function Hero() {
       </div>
 
       <div className="px-20 -mt-9  mb-36">
-        <p className="text-5xl">
+        <p className="text-5xl text-black">
           <FaArrowDownLong />
         </p>
       </div>

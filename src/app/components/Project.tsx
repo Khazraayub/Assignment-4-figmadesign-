@@ -11,12 +11,12 @@ export default function Project() {
         <div className="flex flex-col justify-between text-start  w-[356px]">
           <div className="flex flex-col gap-5">
             <div>
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-2xl text-black font-semibold">
                 01/Governor Sindh IT Website
               </h2>
             </div>
             <div>
-              <p className="text-xl ">
+              <p className="text-xl text-black ">
                 This is a Governor Sindh IT Website Project using Tailwind CSS
                 in Next.JS.
               </p>
@@ -28,12 +28,12 @@ export default function Project() {
               </span>
             </div>
           </div>
-          <div className="project-link my-9 lg:m-0 flex font-semibold underline">
+          <div className="project-link my-9 text-black lg:m-0 flex font-semibold underline">
             <Link href="https://governor-sindh-it-website.vercel.app/">
               More shots from This Project
             </Link>
 
-            <div className="text-sm ml-1 mt-1">
+            <div className="text-sm text-black ml-1 mt-1">
               <GoArrowUpRight />
             </div>
           </div>
@@ -56,12 +56,12 @@ export default function Project() {
         <div className="flex flex-col justify-between text-start  w-[356px]">
           <div className="flex flex-col gap-5">
             <div>
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-2xl text-black font-semibold">
                 02/Governor Sindh ID Card
               </h2>
             </div>
             <div>
-              <p className="text-xl ">
+              <p className="text-xl text-black ">
               This is a Student Id Card Project using Tailwind CSS in Next.JS. I design mine
               </p>
             </div>
@@ -72,12 +72,12 @@ export default function Project() {
               </span>
             </div>
           </div>
-          <div className="project-link my-9 lg:m-0 flex font-semibold underline">
+          <div className="project-link my-9 text-black lg:m-0 flex font-semibold underline">
             <Link href="https://governor-sindh-it-website.vercel.app/">
               More shots from This Project
             </Link>
 
-            <div className="text-sm ml-1 mt-1">
+            <div className="text-sm ml-1 text-black mt-1">
               <GoArrowUpRight />
             </div>
           </div>
@@ -100,12 +100,12 @@ export default function Project() {
         <div className="flex flex-col justify-between text-start  w-[356px]">
           <div className="flex flex-col gap-5">
             <div>
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-2xl text-black font-semibold">
                 03/Pizza House Website In Nex.JS
               </h2>
             </div>
             <div>
-              <p className="text-xl ">
+              <p className="text-xl text-black ">
               This is a Pizza House Food Website using Tailwind CSS in Next.JS.
               </p>
             </div>
@@ -116,12 +116,12 @@ export default function Project() {
               </span>
             </div>
           </div>
-          <div className="project-link my-9 lg:m-0 flex font-semibold underline">
+          <div className="project-link text-black my-9 lg:m-0 flex font-semibold underline">
             <Link href="https://governor-sindh-it-website.vercel.app/">
               More shots from This Project
             </Link>
 
-            <div className="text-sm ml-1 mt-1">
+            <div className="text-sm ml-1 text-black mt-1">
               <GoArrowUpRight />
             </div>
           </div>
