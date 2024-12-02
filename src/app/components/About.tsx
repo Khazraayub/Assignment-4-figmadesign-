@@ -11,16 +11,21 @@ const About = () => {
 
         <div className="flex  flex-col w-full  lg:w-[44%] gap-9 mb-11 lg:m-0">
           <h1 className="text-6xl font-[500] w-[500px] text-black leading-[58.32px] mb-11 ">
-            Hi I’m Mehmet Akif Karasu, 3D artist & sculptor.
+            Hi I’m Khazra Shaikh, Telecom Engineer & Web Developer.
           </h1>
           <p className="text-2xl text-[#606060] leading-[37.44px] font-[400]  tracking-[-3%]">
-            My work is mainly focused on third-dimension modeling, texturing and
-            rendering. I like exploring the creatures with a touch of dark
-            surrealism for characters and production.
+          Alhamdulillah Telecom Engineer graduate from Mehran University of Engineering and Technology. 
+          Want to enhance my knowledge and skills. My goal is to seeking and leverage knowledge in my field.
+          Looking to utilize my technology and leadership skills in an esteemed organization. 
+          Well versed with research-oriented marketing abilities and product analysis.
+          
           </p>
           <p className="text-2xl text-[#606060]  leading-[37.44px] font-[400]    tracking-[-3%]">
-            Now I’m an interactive media design student in Istanbul ⏤ currently
-            freelancing and seeking internship opportunities.
+            Now I’m a dedicated front-end developer with expertise
+          in HTML, CSS, JavaScript, TypeScript, and Tailwind CSS.
+          I enjoy transforming ideas into interactive, responsive, and 
+          visually engaging digital experiences. With a keen eye for detail and a strong foundation
+          in modern web technologies, I build projects that are both functional and user-friendly.
           </p>
         </div>
 
